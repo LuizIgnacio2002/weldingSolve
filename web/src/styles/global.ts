@@ -10,12 +10,12 @@ export default createGlobalStyle`
   html, body, #root {
     width: 100%;
     height: 100%;
-    overflow: hidden;
   }
 
   body {
     font-family: Arial, sans-serif;
-    background-color: pink;
-    overflow: auto;
+    background-color: #f0f0f0;
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin: 0px;
   }
 `;

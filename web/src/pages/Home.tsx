@@ -3,6 +3,8 @@ import Contact from '../components/ContactSection/Contact';
 import Header from '../components/Header/Header';
 import HeroSection from '../components/HeroSection/HeroSection';
 import Services from '../components/ServicesSection/ServicesSection';
+import Clients from '../components/Clients/Clients';
+
 
 
 const HomePage = () => {
@@ -11,6 +13,7 @@ const HomePage = () => {
             <Header />
             <HeroSection />
             <Services />
+            <Clients />
             <AboutUs />
             <Contact />
         </div>

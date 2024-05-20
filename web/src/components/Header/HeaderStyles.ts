@@ -8,8 +8,9 @@ export const StyledHeader = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #ffb400;
-    color: #fff;
+    background-color: white;
+    color: black;
+    
 
     h1 {
         font-size: 2rem;
@@ -18,6 +19,27 @@ export const StyledHeader = styled.header`
     nav ul {
         display: flex;
         gap: 1rem;
+        
+    
+        @media (max-width: 768px) {
+            display: none;
+            
+        }
     }
+
+    ul {
+        list-style: none;
+    }
+
+    ul : hover {
+        color: #ffb400;
+    }
+
+    a {
+        color: black;
+    }
+
+
+
 `;
 

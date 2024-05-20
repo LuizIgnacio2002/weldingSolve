@@ -1,9 +1,11 @@
 import * as S from './HeaderStyles';
 
+
 const Header = () => {
     return (
         <S.StyledHeader>
-            <h1>WeldingSolve</h1>
+            
+            <h1>WELDSOLVE</h1>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
