@@ -6,12 +6,12 @@ export const StyledServicesSection = styled.section`
     align-items: flex-start; // align items to the start of the container
     flex-wrap: wrap; // allow the items to wrap onto multiple lines
     padding: 2rem;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     .card {
-        flex: 0 0 calc(33.33% - 4rem); // subtract the total left and right margin
+        flex: 0 0 calc(33.33% - 6rem); // subtract the total left and right margin
         
         
-        border-radius: 5px;
+        border-radius: 0px;
         overflow: hidden;
         margin: 1rem 2rem; // add some margin to the cards
     }
@@ -31,6 +31,7 @@ export const StyledServicesSection = styled.section`
         margin-top: 1rem; // add some margin to the top
         border: 1px solid black;
         height: 50vh;
+        
 
         
         > h4 {
@@ -45,6 +46,27 @@ export const StyledServicesSection = styled.section`
             font-family: 'Open Sans', sans-serif;
         }
     }
+
+    .ServicesSection__title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+
+        h1 {
+            font-size: 2rem;
+            color: #2A2A2A;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .underline {
+            width: 5rem;
+            height: 0.25rem;
+            background-color: #ffbb40;
+            margin: 0 auto;
+            margin-top: 1rem;
+        }
+    }
+
     @media (max-width: 768px) {
         flex-direction: column;
         .card {

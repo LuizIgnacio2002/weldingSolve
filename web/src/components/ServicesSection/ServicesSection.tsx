@@ -2,10 +2,20 @@ import * as S from './ServicesStyles';
 import maquinasLLenadoras from '../../assets/images/maquinasLlenadoras.jpg';
 import estructuraMetalica from '../../assets/images/estructuraMetalica.jpg';
 import pintura from '../../assets/images/pintura.jpg';
+import construccion from '../../assets/images/construccion.jpg';
+import soldadura from '../../assets/images/soldadura.jpg';
+import escaleras from '../../assets/images/escaleras.jpg';
 
 const ServicesSection = () => {
     return (
         <S.StyledServicesSection>
+
+
+            <div className="ServicesSection__title">
+                <h1>Nuestros Servicios</h1>
+                <div className="underline"></div>
+            </div>
+
             <div className="card">
                 <div className="card-image">
                     <img src={maquinasLLenadoras} alt="Card Image" />
@@ -44,7 +54,7 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src="https://via.placeholder.com/150" alt="Card Image" />
+                    <img src={construccion} alt="Card Image" />
                 </div>
                 <div className="card-description">
                     <h4>Construcción en general</h4>
@@ -56,7 +66,7 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src="https://via.placeholder.com/150" alt="Card Image" />
+                    <img src={soldadura} alt="Card Image" />
                 </div>
                 <div className="card-description">
                     <h4>Soldadura en general</h4>
@@ -68,12 +78,12 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src="https://via.placeholder.com/150" alt="Card Image" />
+                    <img src={escaleras} alt="Card Image" />
                 </div>
                 <div className="card-description">
-                    <h4>Card Title</h4>
+                    <h4>Diseño de proyectos eléctricos, mecánicos y manuales</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec hendrerit turpis. Nullam sit amet vestibulum odio. In at felis ac velit aliquam fermentum.
+                    Nuestro equipo de expertos en ingeniería se especializa en el diseño y la implementación de proyectos que abarcan desde sistemas eléctricos hasta soluciones mecánicas. Nos esforzamos por ofrecer soluciones innovadoras y eficientes que se adapten a las necesidades de nuestros clientes.
                     </p>
                 </div>
             </div>

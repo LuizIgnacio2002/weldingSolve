@@ -36,6 +36,12 @@ export const StyledHeroSection = styled.section`
         padding-top: 4rem;
     }
 
+    h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+    }
+
     @media (max-width: 768px) {
         
         flex-direction: column;
