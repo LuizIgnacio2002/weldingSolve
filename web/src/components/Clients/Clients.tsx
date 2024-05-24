@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick-theme.css";
 import BASICO from '../../assets/companies/BASICO.png';
 import DestileriaAndina from '../../assets/companies/DestileriaAndina.png';
 import Disforvet from '../../assets/companies/Disforvet.png';
+import BINSWANGER from '../../assets/companies/BINSWANGER.png';
 
 const Clients = () => {
     const settings = {
@@ -38,6 +39,9 @@ const Clients = () => {
                 </div>
                 <div>
                     <img src={Disforvet} alt="Disforvet" />
+                </div>
+                <div>
+                    <img src={BINSWANGER} alt="BINSWANGER" />
                 </div>
             </Slider>
         </S.StyledClientsSection>

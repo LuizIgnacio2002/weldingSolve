@@ -6,6 +6,7 @@ export const StyledHeroSection = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 
     .columnLeft {
@@ -13,8 +14,8 @@ export const StyledHeroSection = styled.section`
         background-image: url(${leftBlackContainer});
         background-size: cover;
         background-position: center;
-        min-height: 55vh;
-        max-height: 55vh;
+        min-height: 45vh;
+        max-height: 45vh;
         color: white;
         padding: 2rem;
     }
@@ -29,8 +30,8 @@ export const StyledHeroSection = styled.section`
     .columnRight {
         flex: 0 0 40%;
         background-color: #ffbb40;
-        min-height: 55vh;
-        max-height: 55vh;
+        min-height: 45vh;
+        max-height: 45vh;
         color: black;
         padding: 2rem;
         padding-top: 4rem;
