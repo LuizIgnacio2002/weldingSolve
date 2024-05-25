@@ -10,6 +10,7 @@ import BASICO from '../../assets/companies/BASICO.png';
 import DestileriaAndina from '../../assets/companies/DestileriaAndina.png';
 import Disforvet from '../../assets/companies/Disforvet.png';
 import BINSWANGER from '../../assets/companies/BINSWANGER.png';
+import Alata from '../../assets/companies/Alata.png';
 
 const Clients = () => {
     const settings = {
@@ -42,6 +43,9 @@ const Clients = () => {
                 </div>
                 <div>
                     <img src={BINSWANGER} alt="BINSWANGER" />
+                </div>
+                <div>
+                    <img src={Alata} alt="Alata" />
                 </div>
             </Slider>
         </S.StyledClientsSection>
