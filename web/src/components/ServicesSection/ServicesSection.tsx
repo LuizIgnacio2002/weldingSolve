@@ -1,10 +1,10 @@
 import * as S from './ServicesStyles';
-import maquinasLLenadoras from '../../assets/images/maquinasLlenadoras.jpg';
-import estructuraMetalica from '../../assets/images/estructuraMetalica.jpg';
-import pintura from '../../assets/images/pintura.jpg';
-import construccion from '../../assets/images/construccion.jpg';
-import soldadura from '../../assets/images/soldadura.jpg';
-import escaleras from '../../assets/images/escaleras.jpg';
+import maquinasLLenadoras from '../../assets/images-googled/maquinasLlenadoras.jpg';
+import estructuraMetalica from '../../assets/images-googled/estructuraMetalica.jpeg';
+import pintura from '../../assets/images-googled/pintura.jpg';
+import construccion from '../../assets/images-googled/construccion.jpeg';
+import soldadura from '../../assets/images-googled/soldadura.jpeg';
+import escaleras from '../../assets/images-googled/escaleras.jpeg';
 
 const ServicesSection = () => {
     return (
