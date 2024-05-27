@@ -12,7 +12,7 @@ const ServicesSection = () => {
 
 
             <div className="ServicesSection__title">
-                <h1>Nuestros Servicios</h1>
+                <h1>NUESTROS SERVICIOS</h1>
                 <div className="underline"></div>
             </div>
 

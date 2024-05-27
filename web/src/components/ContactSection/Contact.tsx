@@ -9,7 +9,7 @@ const Contact = () => {
         <S.StyledContactSection>
             <div className="card">
                 <div className="card__title">
-                    <h1>Contáctanos</h1>
+                    <h1>CONTÁCTANOS</h1>
                     <div className="underline"></div>
                 </div>
                 <div className='card__icons_section'>

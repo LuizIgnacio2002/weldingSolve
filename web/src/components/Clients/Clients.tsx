@@ -25,7 +25,7 @@ const Clients = () => {
     return (
         <S.StyledClientsSection>
             <div className="ClientsSection__title">
-                <h1>Clientes</h1>
+                <h1>CLIENTES</h1>
                 <div className="underline"></div>
             </div>
             <Slider {...settings}>

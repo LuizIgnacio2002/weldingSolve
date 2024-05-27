@@ -9,11 +9,11 @@ const Header = () => {
             </div>
             <nav>
                 <ul>
-                    <li><a href="#hero-section">Home</a></li>
-                    <li><a href="#services-section">Servicios</a></li>
-                    <li><a href="#clients-section">Clientes</a></li>
-                    <li><a href="#about-us-section">Acerca de nosotros</a></li>
-                    <li><a href="#contact-section">Contacto</a></li>
+                    <li><a href="#hero-section">HOME</a></li>
+                    <li><a href="#services-section">SERVICIOS</a></li>
+                    <li><a href="#clients-section">CLIENTES</a></li>
+                    <li><a href="#about-us-section">NUESTROS SERVICIOS</a></li>
+                    <li><a href="#contact-section">CONTÁCTANOS</a></li>
                 </ul>
             </nav>
         </S.StyledHeader>
