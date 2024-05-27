@@ -1,7 +1,4 @@
 import styled from 'styled-components';
-import leftBlackContainer from '../../assets/leftBlackContainer.png';
-import upStairs from '../../assets/upstairs.png';
-
 
 export const StyledAboutUsSection = styled.section`
     background-color: #ffbb40;

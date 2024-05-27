@@ -2,7 +2,6 @@ import * as S from './ContactStyles';
 
 import fb from '../../assets/icons/facebook.png';
 import instagram from '../../assets/icons/instagram.png';
-import linkedin from '../../assets/icons/linkedin.png';
 import whatsapp from '../../assets/icons/whatsapp.png';
 
 const Contact = () => {

@@ -1,5 +1,4 @@
 import * as S from './HeaderStyles';
-import leftBlackContainer from '../../assets/leftBlackContainer.png';
 import logo from '../../assets/logo/logo.png';
 
 const Header = () => {
