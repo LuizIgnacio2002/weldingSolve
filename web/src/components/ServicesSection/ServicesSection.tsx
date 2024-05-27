@@ -1,6 +1,6 @@
 import * as S from './ServicesStyles';
 import maquinasLLenadoras from '../../assets/images-googled/maquinasLlenadoras.jpg';
-import estructuraMetalica from '../../assets/images-googled/estructuraMetalica.jpeg';
+import estructuraMetalica from '../../assets/images-googled/estructuraMetalica.jpg';
 import pintura from '../../assets/images-googled/pintura.jpg';
 import construccion from '../../assets/images-googled/construccion.jpeg';
 import soldadura from '../../assets/images-googled/soldadura.jpg';
