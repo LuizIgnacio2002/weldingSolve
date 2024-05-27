@@ -57,6 +57,10 @@ export const StyledClientsSection = styled.section`
     max-width: 100%;
     display: block;
 }
+
+.space_botton {
+    margin-bottom: 3rem;
+}
  
 
 `;

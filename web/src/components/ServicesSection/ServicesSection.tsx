@@ -23,7 +23,7 @@ const ServicesSection = () => {
                 <div className="card-description">
                     <h4>Fabricación de máquinas llenadoras de líquidos</h4>
                     <p>
-                    Estas máquinas pueden operar automatizadamente, semiautomática o de manera manual.
+                    Nos especializamos en fabricar estructuras metálicas como barandas, pasamanos, techos, andamios y coberturas. Ofrecemos soluciones duraderas y de alta calidad para proyectos de construcción e infraestructura, garantizando satisfacción y seguridad.
                     </p>
                 </div>
             </div>
@@ -59,7 +59,7 @@ const ServicesSection = () => {
                 <div className="card-description">
                     <h4>Construcción en general</h4>
                     <p>
-                        Ofrecemos servicios de construcción en general, incluyendo albañilería, enchapado, construcción de cimientos, ampliación y remodelación de casas, edificios, locales comerciales, entre otros. Contamos con un equipo de profesionales altamente calificados y con amplia experiencia en el sector de la construcción.
+                    Proveemos servicios de construcción, como albañilería, enchapado, cimientos, ampliación y remodelación de casas, edificios y locales comerciales. Nuestro equipo de profesionales es altamente calificado y cuenta con extensa experiencia en el sector.
                     </p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const ServicesSection = () => {
                 <div className="card-description">
                     <h4>Soldadura en general</h4>
                     <p>
-                        Ofrecemos servicios de soldadura en general, incluyendo soldadura TIG, soldadura MIG. Nuestros soldadores son altamente calificados y cuentan con amplia experiencia en el sector de la soldadura.
+                    Ofrecemos servicios de soldadura, incluyendo TIG y MIG. Nuestros soldadores son altamente calificados y tienen vasta experiencia, asegurando calidad y profesionalismo en cada proyecto de soldadura que realizamos.
                     </p>
                 </div>
             </div>
@@ -83,7 +83,7 @@ const ServicesSection = () => {
                 <div className="card-description">
                     <h4>Diseño de proyectos eléctricos, mecánicos y manuales</h4>
                     <p>
-                    Nuestro equipo de expertos en ingeniería se especializa en el diseño y la implementación de proyectos que abarcan desde sistemas eléctricos hasta soluciones mecánicas. Nos esforzamos por ofrecer soluciones innovadoras y eficientes que se adapten a las necesidades de nuestros clientes.
+                    Nuestros ingenieros expertos se especializan en diseñar e implementar proyectos de sistemas eléctricos y mecánicos. Nos dedicamos a ofrecer soluciones innovadoras y eficientes, adaptadas a las necesidades de nuestros clientes.
                     </p>
                 </div>
             </div>

@@ -5,10 +5,10 @@ const HeroSection = () => {
         <S.StyledHeroSection>
             <div className="columnLeft">
                 <div className="columnLeftTitle">
-                    <h1>Soldadura</h1>
+                    <h1>WELDSOLVE</h1>
                 </div>
                 <p>
-                    La soldadura es un proceso de fabricación en el que se utilizan altas temperaturas para fundir y unir dos o más piezas de metal. Existen diferentes tipos de soldadura, como la soldadura por arco, la soldadura por gas y la soldadura por resistencia.
+                Empresa especializada en la fabricación personalizada de máquinas industriales y equipos de acero. Además, de servicios de pintura, soldadura, construcción y acabado en general de inmuebles.
                 </p>
             </div>
             <div className="columnRight">

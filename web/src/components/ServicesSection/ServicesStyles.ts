@@ -2,44 +2,64 @@ import styled from 'styled-components';
 
 export const StyledServicesSection = styled.section`
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start; // align items to the start of the container
-    flex-wrap: wrap; // allow the items to wrap onto multiple lines
+    align-items: flex-start;
     padding: 2rem;
     background-color: #ffffff;
+
     .card {
-        flex: 0 0 calc(33.33% - 6rem); // subtract the total left and right margin
-        
-        
-        border-radius: 0px;
+        flex: 0 0 calc(33.33% - 2rem);
+        margin: 1rem;
+        background-color: #f9f9f9;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
         overflow: hidden;
-        margin: 1rem 2rem; // add some margin to the cards
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 450px; /* Increased height for uniformity */
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
     }
+
     .card-image {
         width: 100%;
-        height: 150px;
+        height: 50%; /* Adjusted height for images */
         overflow: hidden;
-        background-color: #f0f0f0;
+
         img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
         }
     }
+
     .card-description {
         padding: 1rem;
-        margin-top: 1rem; // add some margin to the top
-        border: 1px solid black;
-        height: 50vh;
-        
+        height: 50%; /* Adjusted height for description */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 3rem;
 
-        
-        > h4 {
-            padding-top: 2rem;
-            margin-bottom: 1rem;
-            color: #2A2A2A;
+        h4 {
+            font-size: 1.25rem;
+            color: #333333;
+            margin-bottom: 0.5rem;
             font-family: 'Open Sans', sans-serif;
         }
+
         p {
             font-size: 1rem;
             color: #666666;
@@ -62,17 +82,16 @@ export const StyledServicesSection = styled.section`
             width: 5rem;
             height: 0.25rem;
             background-color: #ffbb40;
-            margin: 0 auto;
-            margin-top: 1rem;
+            margin: 0.5rem auto;
         }
     }
 
     @media (max-width: 768px) {
         flex-direction: column;
+
         .card {
             flex: 0 0 100%;
-            margin: 1rem 0; // adjust the margin for mobile view
-            background-color: #f0f0f0;
+            margin: 1rem 0;
         }
     }
 `;

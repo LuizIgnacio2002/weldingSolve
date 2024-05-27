@@ -1,23 +1,23 @@
 import styled from 'styled-components';
 import leftBlackContainer from '../../assets/leftBlackContainer.png';
 
-
 export const StyledHeroSection = styled.section`
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
-
+    max-width: 100%;
+    box-sizing: border-box;
 
     .columnLeft {
-        flex: 0 0 60%;
+        flex: 1 1 60%;
         background-image: url(${leftBlackContainer});
         background-size: cover;
         background-position: center;
         min-height: 45vh;
-        max-height: 45vh;
         color: white;
         padding: 2rem;
+        box-sizing: border-box;
     }
 
     .columnLeftTitle {
@@ -28,13 +28,13 @@ export const StyledHeroSection = styled.section`
     }
 
     .columnRight {
-        flex: 0 0 40%;
+        flex: 1 1 40%;
         background-color: #ffbb40;
         min-height: 45vh;
-        max-height: 45vh;
         color: black;
         padding: 2rem;
         padding-top: 4rem;
+        box-sizing: border-box;
     }
 
     h1 {
@@ -44,12 +44,10 @@ export const StyledHeroSection = styled.section`
     }
 
     @media (max-width: 768px) {
-        
         flex-direction: column;
 
         .columnLeft, .columnRight {
-            flex: 0 0 100%;
+            flex: 1 1 100%;
         }
     }
-    
 `;

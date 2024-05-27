@@ -47,7 +47,11 @@ const Clients = () => {
                 <div>
                     <img src={Alata} alt="Alata" />
                 </div>
+
+                
             </Slider>
+
+            <div className='space_botton'></div>
         </S.StyledClientsSection>
     );
 }

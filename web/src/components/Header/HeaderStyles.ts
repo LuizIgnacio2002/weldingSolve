@@ -39,6 +39,11 @@ export const StyledHeader = styled.header`
         color: black;
     }
 
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
 
 
 `;

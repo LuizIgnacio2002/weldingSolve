@@ -1,11 +1,15 @@
 import * as S from './HeaderStyles';
+import leftBlackContainer from '../../assets/leftBlackContainer.png';
+import logo from '../../assets/logo/logo.png';
 
 
 const Header = () => {
     return (
         <S.StyledHeader>
             
-            <h1>WELDSOLVE</h1>
+            <div className="columnLeft">
+                <img src={logo} alt="logo" />
+            </div>
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
