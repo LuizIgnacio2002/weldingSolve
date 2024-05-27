@@ -6,6 +6,7 @@ export const StyledClientsSection = styled.section`
 .ClientsSection__title {
     width: 100%;
     text-align: center;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 
     h1 {

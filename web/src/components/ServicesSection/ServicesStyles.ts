@@ -6,7 +6,7 @@ export const StyledServicesSection = styled.section`
     justify-content: space-between;
     align-items: flex-start;
     padding: 2rem;
-    background-color: #ffbb40;
+    background-color: white;
 
     .card {
         flex: 0 0 calc(33.33% - 2rem);

@@ -12,6 +12,7 @@ export const StyledContactSection = styled.section`
         width: 80%;
         margin: 0 auto;
         text-align: center;
+        
 
         .card__title {
             margin-bottom: 2rem;

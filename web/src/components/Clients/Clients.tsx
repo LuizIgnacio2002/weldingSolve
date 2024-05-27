@@ -3,11 +3,11 @@ import * as S from './ClientsStyle';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import BASICO from '../../assets/companies/BASICO.png';
-import DestileriaAndina from '../../assets/companies/DestileriaAndina.png';
-import Disforvet from '../../assets/companies/Disforvet.png';
-import BINSWANGER from '../../assets/companies/BINSWANGER.png';
-import Alata from '../../assets/companies/Alata.png';
+import BASICO from '../../assets/companiesColored/BASICO.png';
+import DestileriaAndina from '../../assets/companiesColored/DestileriaAndina.png';
+import Disforvet from '../../assets/companiesColored/Disforvet.png';
+import BINSWANGER from '../../assets/companiesColored/BINSWANGER.png';
+import Alata from '../../assets/companiesColored/Alata.png';
 
 const Clients = () => {
     const settings = {
