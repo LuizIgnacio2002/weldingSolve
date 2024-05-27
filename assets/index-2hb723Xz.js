@@ -58,7 +58,7 @@ Error generating stack: `+o.message+`
         p {
             font-size: 1rem;
             font-family: 'Open Sans', sans-serif;
-            text-align: center;
+            text-align: left;
         }
     }
 `,Ay=()=>x.jsx(by,{children:x.jsxs("div",{className:"card",children:[x.jsx("div",{className:"card__title",children:x.jsx("h1",{children:"Acerca de nosotros"})}),x.jsx("p",{children:"Con más de 12 años de trayectoria en el mercado nacional, nos dedicamos a proporcionar soluciones de servicio a medida y de alta calidad, ajustadas a tus necesidades particulares. Nuestro equipo, comprometido y especializado, va más allá de los servicios convencionales, adaptando y personalizando cada solución para satisfacer tus requerimientos específicos. Nuestra misión es brindar soluciones industriales excepcionales y personalizadas que excedan las expectativas de nuestros clientes. Aspiramos a ser el proveedor líder de servicios industriales y de construcción, reconocidos por nuestra innovación, calidad, precisión y dedicación a la satisfacción del cliente."})]})}),Fy=mn.section`
