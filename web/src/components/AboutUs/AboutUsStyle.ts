@@ -17,7 +17,7 @@ export const StyledAboutUsSection = styled.section`
             margin-bottom: 1rem;
         }
         p {
-            font-size: 1.2rem;
+            font-size: 1rem;
         }
     }
 `;
