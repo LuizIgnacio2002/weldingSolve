@@ -20,7 +20,7 @@ export const StyledAboutUsSection = styled.section`
         p {
             font-size: 1rem;
             font-family: 'Open Sans', sans-serif;
-            text-align: center;
+            text-align: left;
         }
     }
 `;
