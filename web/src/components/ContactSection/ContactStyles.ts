@@ -50,6 +50,7 @@ export const StyledContactSection = styled.section`
             p {
                 margin: 0.5rem 0;
                 font-family: 'Open Sans', sans-serif;
+                
             }
         }
     }

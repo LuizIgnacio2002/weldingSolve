@@ -58,12 +58,14 @@ export const StyledServicesSection = styled.section`
             color: #333333;
             margin-bottom: 0.5rem;
             font-family: 'Open Sans', sans-serif;
+            text-align: left;
         }
 
         p {
             font-size: 1rem;
             color: #666666;
             font-family: 'Open Sans', sans-serif;
+            text-align: left;
         }
     }
 

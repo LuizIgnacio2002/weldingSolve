@@ -18,6 +18,7 @@ export const StyledHeroSection = styled.section`
         color: white;
         padding: 2rem;
         box-sizing: border-box;
+        text-align: left;
     }
 
     .columnLeftTitle {
@@ -38,7 +39,7 @@ export const StyledHeroSection = styled.section`
 
         p {
             font-family: 'Open Sans', sans-serif;
-
+            text-align: left;
         }
     }
 
