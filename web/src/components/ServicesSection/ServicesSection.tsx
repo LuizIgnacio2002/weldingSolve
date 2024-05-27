@@ -3,8 +3,8 @@ import maquinasLLenadoras from '../../assets/images-googled/maquinasLlenadoras.j
 import estructuraMetalica from '../../assets/images-googled/estructuraMetalica.jpeg';
 import pintura from '../../assets/images-googled/pintura.jpg';
 import construccion from '../../assets/images-googled/construccion.jpeg';
-import soldadura from '../../assets/images-googled/soldadura.jpeg';
-import escaleras from '../../assets/images-googled/escaleras.jpeg';
+import soldadura from '../../assets/images-googled/soldadura.jpg';
+import escaleras from '../../assets/images-googled/escaleras.jpg';
 
 const ServicesSection = () => {
     return (
