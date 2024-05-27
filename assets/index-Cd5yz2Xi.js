@@ -56,7 +56,7 @@ Error generating stack: `+o.message+`
             font-family: 'Rubik', sans-serif;
         }
         p {
-            font-size: 1rem;
+            font-size: 0.85rem;
             font-family: 'Open Sans', sans-serif;
             text-align: left;
         }
