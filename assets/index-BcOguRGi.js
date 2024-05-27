@@ -160,7 +160,7 @@ Error generating stack: `+o.message+`
 
 
 
-`,Qg="/weldingSolve/assets/logo-Bg1zZoPF.png",Kg=()=>x.jsxs(Vg,{children:[x.jsx("div",{className:"columnLeft",children:x.jsx("img",{src:Qg,alt:"logo"})}),x.jsx("nav",{children:x.jsxs("ul",{children:[x.jsx("li",{children:x.jsx("a",{href:"#hero-section",children:"HOME"})}),x.jsx("li",{children:x.jsx("a",{href:"#services-section",children:"SERVICIOS"})}),x.jsx("li",{children:x.jsx("a",{href:"#clients-section",children:"CLIENTES"})}),x.jsx("li",{children:x.jsx("a",{href:"#about-us-section",children:"NUESTROS SERVICIOS"})}),x.jsx("li",{children:x.jsx("a",{href:"#contact-section",children:"CONTÁCTANOS"})})]})})]}),Gg="/weldingSolve/assets/leftBlackContainer-CRungqMi.png",Yg=mn.section`
+`,Qg="/weldingSolve/assets/logo-Bg1zZoPF.png",Kg=()=>x.jsxs(Vg,{children:[x.jsx("div",{className:"columnLeft",children:x.jsx("img",{src:Qg,alt:"logo"})}),x.jsx("nav",{children:x.jsxs("ul",{children:[x.jsx("li",{children:x.jsx("a",{href:"#hero-section",children:"HOME"})}),x.jsx("li",{children:x.jsx("a",{href:"#services-section",children:"SERVICIOS"})}),x.jsx("li",{children:x.jsx("a",{href:"#clients-section",children:"CLIENTES"})}),x.jsx("li",{children:x.jsx("a",{href:"#about-us-section",children:"ACERCA DE NOSOTROS"})}),x.jsx("li",{children:x.jsx("a",{href:"#contact-section",children:"CONTÁCTANOS"})})]})})]}),Gg="/weldingSolve/assets/leftBlackContainer-CRungqMi.png",Yg=mn.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
