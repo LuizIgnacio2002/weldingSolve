@@ -11,7 +11,7 @@ export const StyledClientsSection = styled.section`
     h1 {
         font-size: 2rem;
         color: #2A2A2A;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Rubik', sans-serif;
     }
 
     .underline {

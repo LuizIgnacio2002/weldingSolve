@@ -6,7 +6,7 @@ export const StyledServicesSection = styled.section`
     justify-content: space-between;
     align-items: flex-start;
     padding: 2rem;
-    background-color: #ffffff;
+    background-color: #ffbb40;
 
     .card {
         flex: 0 0 calc(33.33% - 2rem);
@@ -75,7 +75,7 @@ export const StyledServicesSection = styled.section`
         h1 {
             font-size: 2rem;
             color: #2A2A2A;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Rubik', sans-serif;
         }
 
         .underline {

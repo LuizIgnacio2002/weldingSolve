@@ -35,6 +35,11 @@ export const StyledHeroSection = styled.section`
         padding: 2rem;
         padding-top: 4rem;
         box-sizing: border-box;
+
+        p {
+            font-family: 'Open Sans', sans-serif;
+
+        }
     }
 
     h1 {

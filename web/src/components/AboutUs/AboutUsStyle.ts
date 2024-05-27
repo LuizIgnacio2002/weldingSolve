@@ -15,9 +15,11 @@ export const StyledAboutUsSection = styled.section`
         h1 {
             font-size: 2rem;
             margin-bottom: 1rem;
+            font-family: 'Rubik', sans-serif;
         }
         p {
             font-size: 1rem;
+            font-family: 'Open Sans', sans-serif;
         }
     }
 `;

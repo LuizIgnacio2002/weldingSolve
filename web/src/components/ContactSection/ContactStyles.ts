@@ -48,6 +48,7 @@ export const StyledContactSection = styled.section`
         .card__reference {
             p {
                 margin: 0.5rem 0;
+                font-family: 'Open Sans', sans-serif;
             }
         }
     }
