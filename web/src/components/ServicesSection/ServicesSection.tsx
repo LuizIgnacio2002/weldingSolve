@@ -1,10 +1,5 @@
 import * as S from './ServicesStyles';
-import maquinasLLenadoras from '../../assets/images-googled/maquinasLlenadoras.jpg';
 
-import pintura from '../../assets/images-googled/pintura.jpg';
-import construccion from '../../assets/images-googled/construccion.jpeg';
-import soldadura from '../../assets/images-googled/soldadura.jpg';
-import escaleras from '../../assets/images-googled/escaleras.jpg';
 
 // EstructurasMetalicas
 import anaquel from '../../assets/images/estructurasMetalicas/anaqueles.jpg';
