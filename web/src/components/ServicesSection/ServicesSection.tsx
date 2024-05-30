@@ -1,28 +1,54 @@
 import * as S from './ServicesStyles';
 import maquinasLLenadoras from '../../assets/images-googled/maquinasLlenadoras.jpg';
-import estructuraMetalica from '../../assets/images-googled/estructuraMetalica.jpg';
+
 import pintura from '../../assets/images-googled/pintura.jpg';
 import construccion from '../../assets/images-googled/construccion.jpeg';
 import soldadura from '../../assets/images-googled/soldadura.jpg';
 import escaleras from '../../assets/images-googled/escaleras.jpg';
 
+// EstructurasMetalicas
+import anaquel from '../../assets/images/estructurasMetalicas/anaqueles.jpg';
+import andamio from '../../assets/images/estructurasMetalicas/andamio.jpg';
+import barandaDeAcero from '../../assets/images/estructurasMetalicas/barandaDeAcero.jpg';
+import estructuraParaTanques from '../../assets/images/estructurasMetalicas/estructuraParaTanques.jpg';
+
+// maquinasLLenadoras
+import maquinaLLenadora1 from '../../assets/images/maquinasLLenadoras/maquinaLLenadora1.jpg';
+import maquinaLLenadora2 from '../../assets/images/maquinasLLenadoras/maquinaLLenadora2.jpg';
+import maquinaLLenadora3 from '../../assets/images/maquinasLLenadoras/maquinaLLenadora3.jpg';
+import maquinaLLenadora4 from '../../assets/images/maquinasLLenadoras/maquinaLLenadora4.jpg';
+
+// pinturaEnGeneral
+import pinturaEnGeneral1 from '../../assets/images/pinturaEnGeneral/pinturaEnGeneral1.jpg';
+import pinturaEnGeneral2 from '../../assets/images/pinturaEnGeneral/pinturaEnGeneral2.jpg';
+import pinturaEnGeneral3 from '../../assets/images/pinturaEnGeneral/pinturaEnGeneral3.jpg';
+import pinturaEnGeneral4 from '../../assets/images/pinturaEnGeneral/pinturaEnGeneral4.jpeg';
+
 import { useEffect, useState } from 'react';
 
 const ServicesSection = () => {
 
-    const images = [maquinasLLenadoras, estructuraMetalica, pintura, construccion, soldadura, escaleras];
-    const [currentImage, setCurrentImage] = useState(images[0]);
-    const [opacity, setOpacity] = useState(1);
+    const imagesEstructuraMetalica = [anaquel, andamio, barandaDeAcero, estructuraParaTanques];
+    const maquinasLLenadoras = [maquinaLLenadora1, maquinaLLenadora2, maquinaLLenadora3, maquinaLLenadora4];
+    const pinturaEnGeneral = [pinturaEnGeneral1, pinturaEnGeneral2, pinturaEnGeneral3, pinturaEnGeneral4];
 
-    useEffect(() => {
+
+    const [currentImage, setCurrentImage] = useState(imagesEstructuraMetalica[0]);
+    const [currentMaquinaLLenadora, setCurrentMaquinaLLenadora] = useState(maquinasLLenadoras[0]);
+    const [currentPinturaEnGeneral, setCurrentPinturaEnGeneral] = useState(pinturaEnGeneral[0]);
+    const [opacity, setOpacity] = useState(1); // Initial opacity
+
+    useEffect(() => { // Change image every 4 seconds
         const timer = setInterval(() => {
-            setOpacity(0);
+            setOpacity(0); // Fade out image
             setTimeout(() => {
-                setCurrentImage(images[(images.indexOf(currentImage) + 1) % images.length]);
-                setOpacity(1);
-            }, 500);
-        }, 4000);
-        return () => clearInterval(timer);
+                setCurrentImage(imagesEstructuraMetalica[(imagesEstructuraMetalica.indexOf(currentImage) + 1) % imagesEstructuraMetalica.length]); // Next image
+                setCurrentMaquinaLLenadora(maquinasLLenadoras[(maquinasLLenadoras.indexOf(currentMaquinaLLenadora) + 1) % maquinasLLenadoras.length]); // Next image
+                setCurrentPinturaEnGeneral(pinturaEnGeneral[(pinturaEnGeneral.indexOf(currentPinturaEnGeneral) + 1) % pinturaEnGeneral.length]); // Next image
+                setOpacity(1); // Reset opacity this makes the image fade in again
+            }, 500); // Wait for the image to fade out
+        } , 4000); // Change image every 4 seconds
+        return () => clearInterval(timer); // this makes sure the timer is cleared when the component is unmounted
     }, [currentImage]);
 
     return (
@@ -36,7 +62,7 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src={maquinasLLenadoras} alt="Card Image" />
+                    <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentMaquinaLLenadora} alt="Card Image" />
                 </div>
                 <div className="card-description">
                     <h4>Fabricación de máquinas llenadoras de líquidos</h4>
@@ -60,7 +86,7 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src={pintura} alt="Card Image" />
+                    <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentPinturaEnGeneral} alt="Card Image" />
                 </div>
                 <div className="card-description">
                     <h4>Pintura en general</h4>
