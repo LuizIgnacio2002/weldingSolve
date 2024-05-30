@@ -45,6 +45,16 @@ export const StyledServicesSection = styled.section`
         }
     }
 
+    .card-image img {
+        transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
+    }
+    
+    .card-image:hover img {
+        transform: scale(1.05);
+    }
+
+    
+
     .card-description {
         padding: 1rem;
         height: 50%; /* Adjusted height for description */

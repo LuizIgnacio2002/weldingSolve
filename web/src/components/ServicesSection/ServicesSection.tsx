@@ -6,7 +6,25 @@ import construccion from '../../assets/images-googled/construccion.jpeg';
 import soldadura from '../../assets/images-googled/soldadura.jpg';
 import escaleras from '../../assets/images-googled/escaleras.jpg';
 
+import { useEffect, useState } from 'react';
+
 const ServicesSection = () => {
+
+    const images = [maquinasLLenadoras, estructuraMetalica, pintura, construccion, soldadura, escaleras];
+    const [currentImage, setCurrentImage] = useState(images[0]);
+    const [opacity, setOpacity] = useState(1);
+
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setOpacity(0);
+            setTimeout(() => {
+                setCurrentImage(images[(images.indexOf(currentImage) + 1) % images.length]);
+                setOpacity(1);
+            }, 500);
+        }, 4000);
+        return () => clearInterval(timer);
+    }, [currentImage]);
+
     return (
         <S.StyledServicesSection>
 
@@ -30,7 +48,7 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src={estructuraMetalica} alt="Card Image" />
+                <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentImage} alt="Card Image" />
                 </div>
                 <div className="card-description">
                     <h4>Fabricación de estructuras metálicas</h4>
