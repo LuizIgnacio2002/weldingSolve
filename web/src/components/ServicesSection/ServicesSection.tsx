@@ -24,6 +24,25 @@ import pinturaEnGeneral2 from '../../assets/images/pinturaEnGeneral/pinturaEnGen
 import pinturaEnGeneral3 from '../../assets/images/pinturaEnGeneral/pinturaEnGeneral3.jpg';
 import pinturaEnGeneral4 from '../../assets/images/pinturaEnGeneral/pinturaEnGeneral4.jpeg';
 
+// ConstruccionEnGeneral
+import construccion1 from '../../assets/images/ConstruccionEnGeneral/construccion1.jpg';
+import construccion2 from '../../assets/images/ConstruccionEnGeneral/construccion2.jpg';
+import construccion3 from '../../assets/images/ConstruccionEnGeneral/construccion3.jpg';
+import construccion4 from '../../assets/images/ConstruccionEnGeneral/construccion4.jpg';
+
+// SoldaduraEnGeneral
+import soldadura1 from '../../assets/images/SoldaduraEnGeneral/soldadura1.jpg';
+import soldadura2 from '../../assets/images/SoldaduraEnGeneral/soldadura2.jpg';
+import soldadura3 from '../../assets/images/SoldaduraEnGeneral/soldadura3.jpg';
+import soldadura4 from '../../assets/images/SoldaduraEnGeneral/soldadura4.jpg';
+
+// disenoEnGeneral
+import diseno1 from '../../assets/images/disenoEnGeneral/diseno1.jpg';
+import diseno2 from '../../assets/images/disenoEnGeneral/diseno2.jpg';
+import diseno3 from '../../assets/images/disenoEnGeneral/diseno3.jpg';
+import diseno4 from '../../assets/images/disenoEnGeneral/diseno4.png';
+
+
 import { useEffect, useState } from 'react';
 
 const ServicesSection = () => {
@@ -31,11 +50,19 @@ const ServicesSection = () => {
     const imagesEstructuraMetalica = [anaquel, andamio, barandaDeAcero, estructuraParaTanques];
     const maquinasLLenadoras = [maquinaLLenadora1, maquinaLLenadora2, maquinaLLenadora3, maquinaLLenadora4];
     const pinturaEnGeneral = [pinturaEnGeneral1, pinturaEnGeneral2, pinturaEnGeneral3, pinturaEnGeneral4];
+    const construccionEnGeneral = [construccion1, construccion2, construccion3, construccion4];
+    const soldaduraEnGeneral = [soldadura1, soldadura2, soldadura3, soldadura4];
+    const disenoEnGeneral = [diseno1, diseno2, diseno3, diseno4];
 
 
     const [currentImage, setCurrentImage] = useState(imagesEstructuraMetalica[0]);
     const [currentMaquinaLLenadora, setCurrentMaquinaLLenadora] = useState(maquinasLLenadoras[0]);
     const [currentPinturaEnGeneral, setCurrentPinturaEnGeneral] = useState(pinturaEnGeneral[0]);
+    const [currentConstruccionEnGeneral, setCurrentConstruccionEnGeneral] = useState(construccionEnGeneral[0]);
+    const [currentSoldaduraEnGeneral, setCurrentSoldaduraEnGeneral] = useState(soldaduraEnGeneral[0]);
+    const [currentDisenoEnGeneral, setCurrentDisenoEnGeneral] = useState(disenoEnGeneral[0]);
+
+
     const [opacity, setOpacity] = useState(1); // Initial opacity
 
     useEffect(() => { // Change image every 4 seconds
@@ -45,6 +72,11 @@ const ServicesSection = () => {
                 setCurrentImage(imagesEstructuraMetalica[(imagesEstructuraMetalica.indexOf(currentImage) + 1) % imagesEstructuraMetalica.length]); // Next image
                 setCurrentMaquinaLLenadora(maquinasLLenadoras[(maquinasLLenadoras.indexOf(currentMaquinaLLenadora) + 1) % maquinasLLenadoras.length]); // Next image
                 setCurrentPinturaEnGeneral(pinturaEnGeneral[(pinturaEnGeneral.indexOf(currentPinturaEnGeneral) + 1) % pinturaEnGeneral.length]); // Next image
+                setCurrentConstruccionEnGeneral(construccionEnGeneral[(construccionEnGeneral.indexOf(currentConstruccionEnGeneral) + 1) % construccionEnGeneral.length]); // Next image
+                setCurrentSoldaduraEnGeneral(soldaduraEnGeneral[(soldaduraEnGeneral.indexOf(currentSoldaduraEnGeneral) + 1) % soldaduraEnGeneral.length]); // Next image
+                setCurrentDisenoEnGeneral(disenoEnGeneral[(disenoEnGeneral.indexOf(currentDisenoEnGeneral) + 1) % disenoEnGeneral.length]); // Next image
+
+
                 setOpacity(1); // Reset opacity this makes the image fade in again
             }, 500); // Wait for the image to fade out
         } , 4000); // Change image every 4 seconds
@@ -98,7 +130,7 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src={construccion} alt="Card Image" />
+                    <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentConstruccionEnGeneral} alt="Card Image" />
                 </div>
                 <div className="card-description">
                     <h4>Construcción en general</h4>
@@ -110,7 +142,7 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src={soldadura} alt="Card Image" />
+                    <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentSoldaduraEnGeneral} alt="Card Image" />
                 </div>
                 <div className="card-description">
                     <h4>Soldadura en general</h4>
@@ -122,7 +154,7 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img src={escaleras} alt="Card Image" />
+                    <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentDisenoEnGeneral} alt="Card Image" />
                 </div>
                 <div className="card-description">
                     <h4>Diseño de proyectos eléctricos, mecánicos y manuales</h4>
