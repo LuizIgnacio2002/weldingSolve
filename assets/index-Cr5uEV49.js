@@ -308,7 +308,8 @@ Error generating stack: `+o.message+`
     .ServicesSection__title {
         width: 100%;
         text-align: center;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
 
         h1 {
             
@@ -339,8 +340,8 @@ Error generating stack: `+o.message+`
     .ClientsSection__title {
         width: 100%;
         text-align: center;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
 
         h1 {
             
