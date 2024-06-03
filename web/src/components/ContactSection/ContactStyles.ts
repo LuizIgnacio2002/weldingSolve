@@ -53,6 +53,7 @@ export const StyledContactSection = styled.section`
                 font-family: 'Inter', sans-serif;
                 font-size: 14px;
                 
+                
             }
         }
     }

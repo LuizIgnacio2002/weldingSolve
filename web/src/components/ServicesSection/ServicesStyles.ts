@@ -76,7 +76,7 @@ export const StyledServicesSection = styled.section`
         p {
             color: #666666;
             font-family: 'Inter', sans-serif;
-            text-align: left;
+            text-align: justify;
             font-size: 14px;
         }
     }

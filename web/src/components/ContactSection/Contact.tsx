@@ -13,13 +13,13 @@ const Contact = () => {
                     <div className="underline"></div>
                 </div>
                 <div className='card__icons_section'>
-                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/people/Weldsolve-Per%C3%BA-SAC/61559417790210/?mibextid=LQQJ4d&rdid=djohvWl2lgJ08owm&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fjdb4AtkMVRGudtnh%2F%3Fmibextid%3DLQQJ4d" target="_blank" rel="noreferrer">
                         <img src={fb} alt="facebook" />
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+                    <a href="https://www.instagram.com/weldsolve_peru/?utm_source=qr" target="_blank" rel="noreferrer">
                         <img src={instagram} alt="instagram" />
                     </a>
-                    <a href="https://www.whatsapp.com" target="_blank" rel="noreferrer">
+                    <a href="https://wa.me/51936689719" target="_blank" rel="noreferrer">
                         <img src={whatsapp} alt="whatsapp" />
                     </a>
                 </div>

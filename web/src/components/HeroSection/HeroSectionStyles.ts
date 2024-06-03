@@ -22,6 +22,7 @@ export const StyledHeroSection = styled.section`
         p {
             font-family: 'Inter', sans-serif;
             font-size: 18px;
+            text-align: justify;
         }  
     }
 
@@ -43,7 +44,7 @@ export const StyledHeroSection = styled.section`
 
         p {
             font-family: 'Inter', sans-serif;
-            text-align: left;
+            text-align: justify;
             font-size: 14px;
         }
     }

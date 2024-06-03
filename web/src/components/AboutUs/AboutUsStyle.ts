@@ -20,7 +20,7 @@ export const StyledAboutUsSection = styled.section`
         }
         p {
             font-family: 'Inter', sans-serif;
-            text-align: left;
+            text-align: justify;
             font-size: 14px;
         }
     }
