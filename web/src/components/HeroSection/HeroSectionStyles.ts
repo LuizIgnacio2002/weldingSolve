@@ -14,11 +14,15 @@ export const StyledHeroSection = styled.section`
         background-image: url(${leftBlackContainer});
         background-size: cover;
         background-position: center;
-        min-height: 45vh;
+        min-height: 47vh;
         color: white;
         padding: 2rem;
         box-sizing: border-box;
         text-align: left;
+        p {
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
+        }  
     }
 
     .columnLeftTitle {
@@ -31,22 +35,23 @@ export const StyledHeroSection = styled.section`
     .columnRight {
         flex: 1 1 40%;
         background-color: #ffbb40;
-        min-height: 45vh;
+        min-height: 47vh;
         color: black;
         padding: 2rem;
         padding-top: 4rem;
         box-sizing: border-box;
 
         p {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             text-align: left;
+            font-size: 14px;
         }
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 46px;
         font-weight: 500;
-        font-family: 'Rubik', sans-serif;
+        font-family: 'Inter', sans-serif;
     }
 
     @media (max-width: 768px) {

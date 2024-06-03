@@ -18,8 +18,9 @@ export const StyledContactSection = styled.section`
             margin-bottom: 2rem;
 
             h1 {
-                font-size: 2rem;
-                font-weight: 700;
+                font-size: 30px;
+                font-weight: 300;
+                font-family: 'Inter', sans-serif;
             }
 
             .underline {
@@ -49,7 +50,8 @@ export const StyledContactSection = styled.section`
         .card__reference {
             p {
                 margin: 0.5rem 0;
-                font-family: 'Open Sans', sans-serif;
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
                 
             }
         }

@@ -8,9 +8,12 @@ export const StyledClientsSection = styled.section`
         margin-bottom: 2rem;
 
         h1 {
-            font-size: 2rem;
+            
             color: #2A2A2A;
-            font-family: 'Rubik', sans-serif;
+            
+            font-size: 30px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
         }
 
         .underline {

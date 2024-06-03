@@ -94,7 +94,7 @@ const ServicesSection = () => {
                 <div className="card-description">
                     <h4>Fabricación de máquinas llenadoras de líquidos</h4>
                     <p>
-                    Nos especializamos en fabricar estructuras metálicas como barandas, pasamanos, techos, andamios y coberturas. Ofrecemos soluciones duraderas y de alta calidad para proyectos de construcción e infraestructura, garantizando satisfacción y seguridad.
+                    Ofrecemos fabricación de máquinas llenadoras de líquidos, adaptadas a las necesidades de su empresa, garantizando eficiencia, precisión y durabilidad, con soporte técnico especializado y mantenimiento continuo.
                     </p>
                 </div>
             </div>
@@ -106,7 +106,7 @@ const ServicesSection = () => {
                 <div className="card-description">
                     <h4>Fabricación de estructuras metálicas</h4>
                     <p>
-                    Nos especializamos en la fabricación de diversas estructuras metálicas como barandas, pasamanos, techos metálicos, andamios, coberturas metálicas, entre otros. Brindamos soluciones duraderas y de alta calidad para tus proyectos de construcción e infraestructura..
+                    Ofrecemos fabricación de estructuras metálicas como barandas, pasamanos, techos, andamios y coberturas, garantizando calidad, seguridad y cumplimiento de las especificaciones técnicas requeridas por su proyecto.
                     </p>
                 </div>
             </div>

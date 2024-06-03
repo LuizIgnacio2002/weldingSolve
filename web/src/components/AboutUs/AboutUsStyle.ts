@@ -13,14 +13,15 @@ export const StyledAboutUsSection = styled.section`
         border-radius: 10px;
         padding: 2rem;
         h1 {
-            font-size: 2rem;
             margin-bottom: 1rem;
-            font-family: 'Rubik', sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
         }
         p {
-            font-size: 0.85rem;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             text-align: left;
+            font-size: 14px;
         }
     }
 `;

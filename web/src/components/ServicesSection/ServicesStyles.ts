@@ -64,18 +64,20 @@ export const StyledServicesSection = styled.section`
         padding-bottom: 3rem;
 
         h4 {
-            font-size: 1.25rem;
             color: #333333;
             margin-bottom: 0.5rem;
-            font-family: 'Open Sans', sans-serif;
             text-align: left;
+
+            font-size: 23px;
+            font-weight: 150;
+            font-family: 'Inter', sans-serif;
         }
 
         p {
-            font-size: 1rem;
             color: #666666;
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Inter', sans-serif;
             text-align: left;
+            font-size: 14px;
         }
     }
 
@@ -85,9 +87,12 @@ export const StyledServicesSection = styled.section`
         margin-bottom: 2rem;
 
         h1 {
-            font-size: 2rem;
+            
             color: #2A2A2A;
-            font-family: 'Rubik', sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;
+            
         }
 
         .underline {

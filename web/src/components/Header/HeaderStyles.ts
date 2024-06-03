@@ -13,8 +13,9 @@ export const StyledHeader = styled.header`
     
 
     h1 {
-        font-size: 2rem;
-        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        font-family: 'Inter', sans-serif;
     }
 
     nav ul {
