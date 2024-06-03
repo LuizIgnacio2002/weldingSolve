@@ -4,8 +4,8 @@ export const StyledClientsSection = styled.section`
     .ClientsSection__title {
         width: 100%;
         text-align: center;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
 
         h1 {
             

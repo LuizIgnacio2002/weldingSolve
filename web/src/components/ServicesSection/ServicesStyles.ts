@@ -84,7 +84,8 @@ export const StyledServicesSection = styled.section`
     .ServicesSection__title {
         width: 100%;
         text-align: center;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
 
         h1 {
             
