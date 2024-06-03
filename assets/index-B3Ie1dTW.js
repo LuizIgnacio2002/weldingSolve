@@ -58,7 +58,7 @@ Error generating stack: `+o.message+`
         }
         p {
             font-family: 'Inter', sans-serif;
-            text-align: left;
+            text-align: justify;
             font-size: 14px;
         }
     }
@@ -115,10 +115,11 @@ Error generating stack: `+o.message+`
                 font-family: 'Inter', sans-serif;
                 font-size: 14px;
                 
+                
             }
         }
     }
-`,Hg="/weldingSolve/assets/facebook-6CwDfD46.png",Wg="/weldingSolve/assets/instagram-C8RxZpNX.png",Ug="/weldingSolve/assets/whatsapp-DA8doaBK.png",Bg=()=>_.jsx(Fg,{children:_.jsxs("div",{className:"card",children:[_.jsxs("div",{className:"card__title",children:[_.jsx("h1",{children:"CONTÁCTANOS"}),_.jsx("div",{className:"underline"})]}),_.jsxs("div",{className:"card__icons_section",children:[_.jsx("a",{href:"https://www.facebook.com",target:"_blank",rel:"noreferrer",children:_.jsx("img",{src:Hg,alt:"facebook"})}),_.jsx("a",{href:"https://www.instagram.com",target:"_blank",rel:"noreferrer",children:_.jsx("img",{src:Wg,alt:"instagram"})}),_.jsx("a",{href:"https://www.whatsapp.com",target:"_blank",rel:"noreferrer",children:_.jsx("img",{src:Ug,alt:"whatsapp"})})]}),_.jsxs("div",{className:"card__reference",children:[_.jsx("p",{children:"Teléfono: +51 936 689 719"}),_.jsx("p",{children:"Correo: weldsolveperu@gmail.com"}),_.jsx("p",{children:"Dirección: Mz. E Lt 13 Los Pinos del Naranjal - S.M.P"})]})]})}),Vg=mn.header`
+`,Hg="/weldingSolve/assets/facebook-6CwDfD46.png",Wg="/weldingSolve/assets/instagram-C8RxZpNX.png",Ug="/weldingSolve/assets/whatsapp-DA8doaBK.png",Bg=()=>_.jsx(Fg,{children:_.jsxs("div",{className:"card",children:[_.jsxs("div",{className:"card__title",children:[_.jsx("h1",{children:"CONTÁCTANOS"}),_.jsx("div",{className:"underline"})]}),_.jsxs("div",{className:"card__icons_section",children:[_.jsx("a",{href:"https://www.facebook.com/people/Weldsolve-Per%C3%BA-SAC/61559417790210/?mibextid=LQQJ4d&rdid=djohvWl2lgJ08owm&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fjdb4AtkMVRGudtnh%2F%3Fmibextid%3DLQQJ4d",target:"_blank",rel:"noreferrer",children:_.jsx("img",{src:Hg,alt:"facebook"})}),_.jsx("a",{href:"https://www.instagram.com/weldsolve_peru/?utm_source=qr",target:"_blank",rel:"noreferrer",children:_.jsx("img",{src:Wg,alt:"instagram"})}),_.jsx("a",{href:"https://wa.me/51936689719",target:"_blank",rel:"noreferrer",children:_.jsx("img",{src:Ug,alt:"whatsapp"})})]}),_.jsxs("div",{className:"card__reference",children:[_.jsx("p",{children:"Teléfono: +51 936 689 719"}),_.jsx("p",{children:"Correo: weldsolveperu@gmail.com"}),_.jsx("p",{children:"Dirección: Mz. E Lt 13 Los Pinos del Naranjal - S.M.P"})]})]})}),Vg=mn.header`
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -158,8 +159,9 @@ Error generating stack: `+o.message+`
     }
 
     img {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
+
     }
 
 
@@ -185,6 +187,7 @@ Error generating stack: `+o.message+`
         p {
             font-family: 'Inter', sans-serif;
             font-size: 18px;
+            text-align: justify;
         }  
     }
 
@@ -206,7 +209,7 @@ Error generating stack: `+o.message+`
 
         p {
             font-family: 'Inter', sans-serif;
-            text-align: left;
+            text-align: justify;
             font-size: 14px;
         }
     }
@@ -300,7 +303,7 @@ Error generating stack: `+o.message+`
         p {
             color: #666666;
             font-family: 'Inter', sans-serif;
-            text-align: left;
+            text-align: justify;
             font-size: 14px;
         }
     }
