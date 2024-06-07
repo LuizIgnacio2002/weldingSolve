@@ -3,6 +3,7 @@ import * as S from './ContactStyles';
 import fb from '../../assets/icons/facebook.png';
 import instagram from '../../assets/icons/instagram.png';
 import whatsapp from '../../assets/icons/whatsapp.png';
+import linkedin from '../../assets/icons/linkedin.png';
 
 const Contact = () => {
     return (
@@ -21,6 +22,9 @@ const Contact = () => {
                     </a>
                     <a href="https://wa.me/51936689719" target="_blank" rel="noreferrer">
                         <img src={whatsapp} alt="whatsapp" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/weldsolve-%F0%9F%87%B5%F0%9F%87%AA-52a219307/" target="_blank" rel="noreferrer">
+                        <img src={linkedin} alt="linkedin" />
                     </a>
                 </div>
                 <div className="card__reference">
