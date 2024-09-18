@@ -23,7 +23,7 @@ const Contact = () => {
                     <a href="https://wa.me/51936689719" target="_blank" rel="noreferrer">
                         <img src={whatsapp} alt="whatsapp" />
                     </a>
-                    <a href="https://www.linkedin.com/in/weldsolve-%F0%9F%87%B5%F0%9F%87%AA-52a219307/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/weldsolve-peru-sac-52a219307/" target="_blank" rel="noreferrer">
                         <img src={linkedin} alt="linkedin" />
                     </a>
                 </div>
