@@ -3,11 +3,6 @@ import * as S from './ClientsStyle';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import BASICO from '../../assets/companiesColored/BASICO.png';
-import DestileriaAndina from '../../assets/companiesColored/DestileriaAndina.png';
-import Disforvet from '../../assets/companiesColored/Disforvet.png';
-import BINSWANGER from '../../assets/companiesColored/BINSWANGER.png';
-import Alata from '../../assets/companiesColored/Alata.png';
 
 import startplus_sac from '../../assets/companiesColored/start_plus_logo.png'
 import tech from '../../assets/companiesColored/tech_logo.jpg'
