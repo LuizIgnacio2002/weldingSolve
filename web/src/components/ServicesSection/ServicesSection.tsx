@@ -1,5 +1,8 @@
 import * as S from './ServicesStyles';
 
+// Limpieza
+import limpieza1 from '../../assets/images/Limpieza/limpieza1.png'
+import limpieza2 from '../../assets/images/Limpieza/limpieza2.png'
 
 // EstructurasMetalicas
 import anaquel from '../../assets/images/estructurasMetalicas/anaqueles.jpg';
@@ -42,6 +45,7 @@ import { useEffect, useState } from 'react';
 
 const ServicesSection = () => {
 
+    const limpiezas = [limpieza1, limpieza2];
     const imagesEstructuraMetalica = [anaquel, andamio, barandaDeAcero, estructuraParaTanques];
     const maquinasLLenadoras = [maquinaLLenadora1, maquinaLLenadora2, maquinaLLenadora3, maquinaLLenadora4];
     const pinturaEnGeneral = [pinturaEnGeneral1, pinturaEnGeneral2, pinturaEnGeneral3, pinturaEnGeneral4];
@@ -50,6 +54,7 @@ const ServicesSection = () => {
     const disenoEnGeneral = [diseno1, diseno2, diseno3, diseno4];
 
 
+    const [currentLimpieza, setCurrentImagen] = useState(limpiezas[0]);
     const [currentImage, setCurrentImage] = useState(imagesEstructuraMetalica[0]);
     const [currentMaquinaLLenadora, setCurrentMaquinaLLenadora] = useState(maquinasLLenadoras[0]);
     const [currentPinturaEnGeneral, setCurrentPinturaEnGeneral] = useState(pinturaEnGeneral[0]);
@@ -64,6 +69,7 @@ const ServicesSection = () => {
         const timer = setInterval(() => {
             setOpacity(0); // Fade out image
             setTimeout(() => {
+                setCurrentImagen(limpiezas[(limpiezas.indexOf(currentLimpieza) + 1) % limpiezas.length]); // Next image
                 setCurrentImage(imagesEstructuraMetalica[(imagesEstructuraMetalica.indexOf(currentImage) + 1) % imagesEstructuraMetalica.length]); // Next image
                 setCurrentMaquinaLLenadora(maquinasLLenadoras[(maquinasLLenadoras.indexOf(currentMaquinaLLenadora) + 1) % maquinasLLenadoras.length]); // Next image
                 setCurrentPinturaEnGeneral(pinturaEnGeneral[(pinturaEnGeneral.indexOf(currentPinturaEnGeneral) + 1) % pinturaEnGeneral.length]); // Next image
@@ -89,12 +95,12 @@ const ServicesSection = () => {
 
             <div className="card">
                 <div className="card-image">
-                    <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentMaquinaLLenadora} alt="Card Image" />
+                    <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentLimpieza} alt="Card Image" />
                 </div>
                 <div className="card-description">
-                    <h4>Fabricación de máquinas llenadoras de líquidos</h4>
+                    <h4>Servicios de limpieza</h4>
                     <p>
-                    Ofrecemos fabricación de máquinas llenadoras de líquidos, adaptadas a las necesidades de su empresa, garantizando eficiencia, precisión y durabilidad, con soporte técnico especializado y mantenimiento continuo.
+                    Ofrecemos servicios de limpieza para empresas, industrias y particulares. Nuestro equipo está capacitado para realizar limpieza profunda de fábricas, locales comerciales y más. Utilizamos productos de alta calidad y técnicas efectivas para garantizar un ambiente limpio y saludable.
                     </p>
                 </div>
             </div>
@@ -116,7 +122,7 @@ const ServicesSection = () => {
                     <img style={{opacity: opacity, transition: 'opacity 0.5s ease-in-out'}} src={currentPinturaEnGeneral} alt="Card Image" />
                 </div>
                 <div className="card-description">
-                    <h4>Pintura en general</h4>
+                    <h4>Servicios de pintura</h4>
                     <p>
                     Realizamos trabajos de pintura en general, tanto para interiores como exteriores, en casas, edificios, oficinas, locales comerciales, entre otros. Utilizamos pinturas de alta calidad y durabilidad para garantizar un acabado perfecto y duradero.
                     </p>
